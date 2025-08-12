@@ -15,8 +15,29 @@
     box-sizing: border-box;
 }
 
+.welcome-page Button{
+    scale: 1.5;
+    background-color: #00033D;
+    border: none;
+    color: #F2E6EE;
+    transition: all 0.3s ease-in-out;
+}
+
+.welcome-page Button:hover{
+    scale: 1.5;
+    background-color: #1141b8;
+    box-shadow: 0 0 10px #F2E6EE, 0 0 20px #FFCCF2;
+    transform: scale(1.02);
+    border: #f4f2ef;
+}
+
 body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.welcome-page h1{
+    font-size: 5rem;
+    color: #00033D;
 }
