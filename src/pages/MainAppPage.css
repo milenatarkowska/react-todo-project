@@ -1,0 +1,28 @@
+.main-app-page{
+    background-color: rgba(0, 3, 61, 0.9);
+    color: #F2E6EE;
+    min-height: 100vh;
+
+}
+.main-app-page header{
+    background-color: rgb(0, 3, 61);
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-app-page Button{
+    scale: 1.2;
+    background-color: #FFCCF2;
+    border: none;
+    color: #00033D;
+    transition: all 0.3s ease-in-out;
+}
+.main-app-page Button:hover{
+    background-color: #fa8dde;
+    box-shadow: 0 0 10px #F2E6EE, 0 0 20px #FFCCF2;
+    transform: scale(1.02);
+}
