@@ -26,3 +26,14 @@
     box-shadow: 0 0 10px #F2E6EE, 0 0 20px #FFCCF2;
     transform: scale(1.02);
 }
+.custom-sidebar {
+    background-color: rgb(12, 46, 135) !important;
+    color: #FFCCF2;
+}
+.p-sidebar .p-sidebar-close .p-sidebar-close-icon {
+    color: #FFCCF2;
+}
+.p-sidebar:hover .p-sidebar-close:hover {
+    background-color: rgba(250, 141, 222, 0.58);
+    border-radius: 50%;
+}

@@ -9,7 +9,7 @@ export default function MainApp() {
         <div className="main-app-page">
             <header>
                 <div className="custom-sidebar">
-                    <Sidebar visible={visible} onHide={() => setVisible(false)}>
+                    <Sidebar visible={visible} onHide={() => setVisible(false)} className="custom-sidebar">
                         <h2>Your to-do lists</h2>
                     </Sidebar>
                     <Button icon="pi pi-arrow-right" onClick={() => setVisible(true)} />
